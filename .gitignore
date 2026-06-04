@@ -1,0 +1,113 @@
+# Dependencies
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build output
+dist/
+build/
+out/
+lib-dist/
+*.tsbuildinfo
+.tscache/
+
+# TypeScript
+*.js.map
+*.d.ts.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.pem
+*.key
+secrets.json
+
+# AWS
+.aws/
+.aws-sam/
+aws-exports.js
+amplify/.config/
+amplify/mock-data/
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation/
+amplify/team-provider-info.json
+.amplifyrc
+
+# Serverless Framework
+.serverless/
+.serverless_plugins/
+.webpack/
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+.cdk.staging/
+
+# DynamoDB Local
+.dynamodb/
+shared-local-instance.db
+dynamodb-local-metadata.json
+DynamoDBLocal_lib/
+DynamoDBLocal.jar
+
+# Testing & coverage
+coverage/
+.nyc_output/
+*.lcov
+.jest-cache/
+junit.xml
+
+# IDE & editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Misc
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.node_repl_history
+.npm/
+.history/
+tmp/
+temp/
